@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register For Hackathon</title>
+  <link rel="stylesheet" type="text/css" href="css/design.css">
+</head>
+<body>
+  <header>
+    <h1>Hackathon 2025</h1>
+    <p>Hack Create Win</p>
+    <nav>
+      <a href="project.html">Home</a>
+      <a href="project2.html">Event Details</a>
+      <a href="project3.html">Register</a>
+      <a href="project4.html">Contact</a>
+    </nav>
+  </header>
+  <div class="main">
+    <h2>Registration Form</h2>
+    <form action="thankyou.html" method="POST" onsubmit="return validateForm()">
+      <label>Name</label>
+      <input type="text" name="Name">
+      <br>
+      <br>
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="Email">
+      <br>
+      <br>
+      <br>
+
+      <label for="college">College:</label>
+      <input type="text" name="College">
+      <br>
+      <br>
+      <br>
+
+      <label>Phone No.</label>
+      <input type="number" name="phone">
+      <br>
+      <br>
+      <br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <script>
+    function validateForm() {
+      const name = document.querySelector('input[name="Name"]').value.trim();
+      const email = document.querySelector('input[name="Email"]').value.trim();
+      const college = document.querySelector('input[name="College"]').value.trim();
+      const phone = document.querySelector('input[name="phone"]').value.trim();
+      if (!name || !email || !college || !phone) {
+        alert("Don't you dare to submit. Fill it properly");
+        return false; 
+      }
+    }
+  </script>
+</body>
+</html>

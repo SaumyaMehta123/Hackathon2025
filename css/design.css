@@ -1,0 +1,52 @@
+body {
+  font-family:Arial,sans-serif;
+  font-size:17px;
+  font-weight:normal;
+  line-height:1em;
+  margin:0;
+  padding:0;
+  background:whitesmoke;
+  color:black;
+  background-color:ghostwhite;
+}
+
+header {
+  background-color:rosybrown;
+  color:black;
+  padding:30px;
+  text-align:center;
+}
+
+nav a {
+  margin:15px;
+  color:white;
+  text-decoration:none;
+}
+
+.hero {
+  font-family:serif;
+  text-align:center;
+  margin-top:50px;
+}
+
+.my-own-style {
+  display:inline-table;
+  margin-top:20px;
+  padding:15px 15px;
+  background:blue;
+  color:whitesmoke;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.villan {
+  text-align:right;
+  color:blue;
+  font-size:14px;
+  padding-right:10px;
+}
+
+.content {
+  font-family:serif;
+  line-height:1.6em;
+}
